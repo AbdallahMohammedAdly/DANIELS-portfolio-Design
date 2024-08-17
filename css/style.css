@@ -1,0 +1,227 @@
+.home{
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    font-size: 1.25rem;
+}
+.navbar{
+    position: fixed;
+    width: 80%;
+    z-index: 999;
+}
+.homecontenttext{
+    background-color: rgba(0,0,0,0.65);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    overflow: hidden;
+    border-right: .15em solid #fff;
+    white-space: nowrap;
+    margin: 20px auto; 
+    animation:  typing 3s 2s steps(18) infinite ,blink 1s steps(18) infinite;
+  }
+  
+  
+  @keyframes typing {
+    from { width: 15% }
+    to { width: 100% }
+  }
+  
+  @keyframes blink {
+    from, to { border-color: transparent }
+    50% { border-color: #fff; }
+  }
+
+
+
+
+
+.links_icons span{
+    font-size: 16px;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+}
+.Abouttext h2{
+    font-weight: 900;
+}
+.Abouttext > p{
+    font-weight:400;
+    color: rgba(0,0,0,0.4);
+}
+.Abouttext span{
+    font-weight:700;
+    color: rgba(0,0,0,0.5);
+}
+.textcontent{
+
+    color:#fff ;	 
+
+}
+.btn_2{
+    transition: 1s all ;
+}
+.btn_2:hover{
+    background-color: rgba( 33,37,41,1);
+    color: #fff;
+}
+#Service , #testimonial , #blog{
+    background-color:#f7f7f7
+}
+.header h2{
+    font-size:40px;
+    font-weight:900;
+    font-family: 'Montserrat', sans-serif;
+}
+.items{
+    
+    padding: 50px 20px;
+    background: #fff;
+     box-shadow: 0px 10px 30px -8px rgb(0 0 0 / 10%); 
+    margin-bottom: 30px;
+    border-radius: 5px;
+
+}
+.iconDiv i{
+    font-size: 30px;
+    padding:20px;
+    margin: 15px 0px ;
+    border: 1px solid transparent;
+    background-color: gainsboro;
+    border-radius: 50%;
+    transition:.5s all;
+
+}
+.items:hover i{
+    color: #fff;
+    background-color: black;
+}
+.links li {
+    margin-right: 20px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+
+}
+.textlayer a {
+    text-decoration: none;
+    color: black;
+}
+.imglayer{
+    position: absolute;
+    top:10px;
+    left:10px;
+    right: 10px;
+    bottom: 10px;
+    background-color:#fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s all;
+    opacity: 0;
+
+}
+.im{
+    width: 40px;
+    height: 40px;
+    
+}
+.imglayer i{
+    font-size:14px;
+    color: #fff;
+    padding: 8px;
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    transition:.5s all;
+    
+}
+.portfolio_images{
+    overflow: hidden;
+}
+.portfolio_images:hover .imglayer {
+    opacity: 1;
+    
+}
+
+
+.imgCarousel{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+.imgCarousel img{
+    width: 100%;
+}
+.card_img{
+    overflow: hidden;
+}
+.card_item img{
+
+    transition: .5s all;
+}
+.card_item:hover img{
+    transform: scale(1.25,1.25);
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.carousel-indicators{
+    top:110%;
+} 
+.contact_icons{ 
+    margin: 30px;
+}
+.contact_icons i{
+    font-size: 20px;
+    padding:20px;
+    margin: 15px 0px ;
+    border: 1px solid transparent;
+    background-color: gainsboro;
+    border-radius: 50%;
+    transition:.5s all;
+}
+.contact_icons:hover i{
+    color: #fff;
+    background-color: black;
+}
+.contact_icons h5{
+    margin: 10px 0px;
+    font-weight: 900;
+}
+.contact_icons p{
+    opacity: 0.5;    
+}
+
+
+form [type=text],form [type=email] ,textarea {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f4f4f4;
+}
+
+footer p{
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
